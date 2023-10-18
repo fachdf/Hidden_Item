@@ -1,28 +1,28 @@
-#Hidden Item Game
+# Hidden Item Game
 
-##Introduction
+## Introduction
 This is a simple command-line program for a hidden item game. In this game, you are placed in a grid with various obstacles (marked as #), clear paths (marked as .), and a starting position (marked as X). Your objective is to find the hidden item within the grid. 
 
 You must navigate in a specific order: first moving up (North), then right (East), and finally down (South). The program will provide you with a list of probable coordinates where the item might be located, and it can also display the grid with the probable item locations marked with a "$" symbol.
 
-##Grid Layout
+## Grid Layout
 The grid is represented using the following symbols:
 "#": Obstacles
 ".": Clear paths
 "X": Starting position
 "$": Probable item locations (only displayed in the grid when showing the results)
 
-##Running the Program
+## Running the Program
 To run the program, simply execute the provided PHP script . The program will display the list of probable item locations in the grid and mark it as '$'.
 
 ``` php script
 php hiddenitem.php
 ```
 
-##Additional Features
+## Additional Features
 Bonus points can be earned for displaying the grid with the probable item locations marked with a "$" symbol.
 
-##Program Output
+## Program Output
 ```Output
 Original Grid:
 ########
